@@ -1,0 +1,184 @@
+
+/* *******header section******** */
+
+header{
+    background-color: #ffff;
+    padding-top: 70px;
+}
+
+.logo a{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 60px;
+}
+.navbar ul li a{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+
+.navbar ul li a:hover,.navbar ul li a:active,.navbar ul li a:focus{
+    color: black;
+    background-color: #f0f0f0;
+    font-weight: 500;
+    transform: scale(1.1);
+    text-decoration: 2px underline;
+}
+
+
+/*********** middle section *****************/
+
+.firstPost img{
+    margin-bottom: 95px;
+}
+
+.firstPara h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.firstPara h1{
+    margin-bottom: 35px;
+}
+
+.firstPara p{
+    margin-bottom: 55px;
+}
+
+.firstPara a h6{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 135px;
+}
+
+.cardImg img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 35px;
+    transition: all 0.3s;
+}
+
+.cardImg img:hover{
+    transform: scale(1.1);
+}
+
+.cardPara h6{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.cardPara h1{
+    margin-bottom: 40px;
+}
+
+/************ newsletter section ***************/
+
+.newsletter-section{
+    background-color: #f0f0f0;
+    padding: 60px;
+}
+.newsletterHead{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 75px;
+}
+
+.email{
+    width: 90%;
+    font-size: 14px;
+    color: #626262;
+    border: none;
+    padding: 10px;
+    border-bottom:1px solid #000000;
+    background-color: #f0f0f0;
+}
+
+.formGroup a{
+    width: 10%;
+    font-size: 25px;
+}
+
+.formGroup a i{
+    padding: 10px;
+    color: #626262;
+    transition: 0.2s;
+}
+.formGroup a i:hover{
+    color: #000000;
+    transform: scale(1.1);
+}
+
+/********* second card section **************/
+
+.secondCard-section{
+    padding: 100px 0 70px 0;
+}
+
+.loadButton{
+    text-align: center;
+}
+.loadButton .button{
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color: #ffff;
+    color: #626262;
+    padding: 25px 35px;
+    border: 2px solid #626262;
+    transition: 0.2s;
+}
+.loadButton .button:hover{
+    color: #ffff;
+    background-color: #626262;
+    border: 2px solid #000000;
+    transform: scale(1.1);
+
+}
+
+/********* footer section **************/
+
+.footer-section{
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+.footerLinks1 ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.footerLinks1 ul li a, .footerLinks2 a{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.footerLinks2{
+    text-align: right;
+}
+.footerLinks1 ul li a:hover, .footerLinks2 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 1062px;
+    margin: 0px auto;
+}
+
+.row {
+    display: table;
+    clear: both;
+    width: 100%;
+}
+[class^="col-"]{
+    float: left;
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: calc(100% * 2 / 12);
+}
+
+.col-7 {
+    width: calc(100% * 7 / 12);
+}
+.col-5 {
+    width: 50%
+}
+.col-10 {
+    width: calc(100% * 10 / 12);
+}
+.col-6{
+    width: calc(100% * 6 / 12);
+}
+
+
+.ml-60{
+    margin-left: 60px;
+}
+
+.offset-3{
+    margin-left: calc(100% * 3 / 12);
+}
+.offset-1{
+    margin-left: calc(100% * 1 / 12);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mar-70{
+    margin: 70px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.mb-130{
+    margin-bottom: 130px;
+}
+
+.primary-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    color: #626262;
+    font-weight: normal;
+}
+.para-text{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+.secondary-text{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #626262;
+    font-weight: lighter;
+}
